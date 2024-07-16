@@ -1,13 +1,13 @@
-## Managed By : OpsStation
+## Managed By : yadavprakash
 ## Description : This Script is used to create Transfer Server, Transfer User And  labels.
-## Copyright @ OpsStation. All Right Reserved.
+## Copyright @ yadavprakash. All Right Reserved.
 
 #Module      : labels
 #Description : This terraform module is designed to generate consistent label names and tags
 #              for resources. You can use terraform-labels to implement a strict naming
 #              convention.
 module "labels" {
-  source      = "git::https://github.com/opsstation/terraform-azure-labels.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-azure-labels.git?ref=v1.0.0"
   name        = var.name
   environment = var.environment
   managedby   = var.managedby

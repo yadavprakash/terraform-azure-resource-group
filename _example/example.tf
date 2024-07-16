@@ -8,9 +8,8 @@ module "resource_group" {
   environment = "-resource-group"
   label_order = ["name", "environment", ]
 
-  name     = "OpsStation"
+  name     = "rg"
   location = "North Europe"
-
   #resource lock
   resource_lock_enabled = true
   lock_level            = "CanNotDelete"
