@@ -6,14 +6,14 @@ variable "name" {
 
 variable "environment" {
   type        = string
-  default     = "-OpsStation"
+  default     = ""
   description = "Environment (e.g. `prod`, `dev`, `staging`)."
 }
 
 variable "managedby" {
   type        = string
-  default     = "company/opsstation"
-  description = "ManageBY, eg, 'OpsStation'"
+  default     = "company/yadavprakash"
+  description = "ManageBY, eg, 'yadavprakash'"
 }
 
 variable "label_order" {
@@ -24,7 +24,7 @@ variable "label_order" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-azure-resource-group"
+  default     = "https://github.com/yadavprakash/terraform-azure-resource-group"
   description = "Terraform current module repo"
 }
 
